@@ -10,22 +10,58 @@ import SwiftUI
 struct NamesView: View {
     var body: some View {
         VStack {
-            Text("Kyle")
-                .font(.headline)
-            Text("Beom")
-                .font(.headline)
-            Text("Hyem")
-                .font(.headline)
-            Text("Jasmin")
-                .font(.headline)
-            Text("Jero")
-                .font(.headline)
-                .foregroundColor(Color(CGColor(red: 115/255, green: 85/255, blue: 255/255, alpha: 1)))
-            Text("Young")
-                .font(.headline)
+            Text("👼🏻")
+                .font(.largeTitle)
             Text("Ethan")
-                .font(.headline)
+            HStack {
+                VStack {
+                    Text("🙍🏻")
+                        .font(.largeTitle)
+                    Text("Kyle")
+                }
+                .padding()
+                
+                VStack {
+                    Text("🙍🏻")
+                        .font(.largeTitle)
+                    Text("Beom")
+                }
+                .padding()
+                
+                VStack {
+                    Text("🙎🏻‍♀️")
+                        .font(.largeTitle)
+                    Text("Hyem")
+                }
+                .padding()
+            }
+            
+            HStack {
+                VStack {
+                    Text("🙎🏻‍♀️")
+                        .font(.largeTitle)
+                    Text("Jasmin")
+                }
+                .padding()
+                
+                VStack {
+                    Text("🙎🏻‍♀️")
+                        .font(.largeTitle)
+                    Text("Jero")
+                        .foregroundColor(.purple)
+                }
+                .padding()
+                
+                VStack {
+                    Text("🙍🏻")
+                        .font(.largeTitle)
+                    Text("Young")
+                }
+                .padding()
+            }
         }
+        .font(.title)
+        .bold()
     }
 }
 

@@ -11,10 +11,12 @@ struct TitleView: View {
     var body: some View {
         VStack {
             Image(systemName: "crown.fill")
-                .imageScale(.large)
-                .foregroundColor(.blue)
+                .resizable()
+                .frame(width: 60, height: 50)
+                .foregroundColor(.purple)
             Text("Hello No.1")
                 .font(.largeTitle)
+                .bold()
                 .underline()
                 .padding()
         }
