@@ -9,11 +9,41 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        MyVStack {
             TitleView()
             NamesView()
         }
+    }
+}
+
+struct MyVStack<Content: View>: View {
+    let content: () -> Content
+    
+    init(@ViewBuilder content: @escaping () -> Content) {
+        self.content = content
+    }
+    
+    var body: some View {
+        VStack {
+            content()
+        }
+        .foregroundColor(.black)
         .padding()
+    }
+}
+
+struct MyHStack<Content: View>: View {
+    let content: () -> Content
+    
+    init(@ViewBuilder content: @escaping () -> Content) {
+        self.content = content
+    }
+    
+    var body: some View {
+        HStack {
+            content()
+        }
+        .foregroundColor(.black)
     }
 }
 

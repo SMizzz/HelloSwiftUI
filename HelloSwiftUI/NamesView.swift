@@ -9,73 +9,68 @@ import SwiftUI
 
 struct NamesView: View {
     var body: some View {
-        VStack {
+        MyVStack {
             Text("👼🏻")
                 .font(.largeTitle)
             Text("Ethan")
                 .modifier(StandardTextShadowColor())
-            HStack {
-                VStack {
-                    Text("🙍🏻")
-                        .font(.largeTitle)
-                    Text("Kyle")
-                        .modifier(StandardTextShadowColor())
-                }
-                .padding()
-                
-                VStack {
-                    Text("🙍🏻")
-                        .font(.largeTitle)
-                    Text("Beom")
-                        .modifier(StandardTextShadowColor())
-                }
-                .padding()
-                
-                VStack {
-                    Text("🙎🏻‍♀️")
-                        .font(.largeTitle)
-                    Text("Hyem")
-                        .modifier(StandardTextShadowColor())
-                }
-                .padding()
-            }
-            
-            HStack {
-                VStack {
-                    Text("🙎🏻‍♀️")
-                        .font(.largeTitle)
-                    Text("Jasmin")
-                        .modifier(StandardTextShadowColor())
-                }
-                .padding()
-                
-                VStack {
+            MyHStack {
+                MyVStack {
                     Text("🙎🏻‍♀️")
                         .font(.largeTitle)
                     Text("Jero")
                         .modifier(StandardTextColor())
                         .modifier(StandardTextShadowColor())
                 }
-                .padding()
-                
-                VStack {
+                MyVStack {
+                    Text("🙍🏻")
+                        .font(.largeTitle)
+                    Text("Kyle")
+                        .modifier(StandardTextShadowColor())
+                }
+            }
+            
+            MyHStack {
+                MyVStack {
+                    Text("🙍🏻")
+                        .font(.largeTitle)
+                    Text("Beom")
+                        .modifier(StandardTextShadowColor())
+                }
+                MyVStack {
+                    Text("🙎🏻‍♀️")
+                        .font(.largeTitle)
+                    Text("Jasmin")
+                        .modifier(StandardTextShadowColor())
+                }
+            }
+            
+            MyHStack {
+                MyVStack {
+                    Text("🙎🏻‍♀️")
+                        .font(.largeTitle)
+                    Text("Hyem")
+                        .modifier(StandardTextShadowColor())
+                }
+                MyVStack {
                     Text("🙍🏻")
                         .font(.largeTitle)
                     Text("Young")
                         .modifier(StandardTextShadowColor())
-                }.padding()
+                }
             }
-        }
-        .modifier(StandardName())
+            
+        }.modifier(StandardName())
     }
+        
 }
 
 struct StandardName: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(.title2)
-            // 커스텀 폰트 방법
-    //        .font(.custom("", size: .title))
+        // 커스텀 폰트 방법
+        //        .font(.custom("", size: .title))
             .bold()
     }
 }
