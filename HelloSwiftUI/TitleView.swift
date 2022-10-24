@@ -32,11 +32,26 @@ struct TitleView: View {
             }
             .buttonStyle(MyButtonStyle())
             
-            Text("Hello No.1")
-                .font(.largeTitle)
-                .bold()
-                .underline()
+            HStack {
+                Text("Best No.1")
+                    .font(.largeTitle)
+                    .bold()
+                    .underline()
+                Text("Hello Everyone")
+                    .font(.largeTitle)
+                    .bold()
+                    .lineLimit(1)
+                    .layoutPriority(1)
+//                    .lineLimit(1)
+            }
             
+            
+            Text("Hello, World!")
+                .font(.largeTitle)
+
+                .frame(minWidth: 100, maxWidth: 300, minHeight: 150, maxHeight: 300)
+                .border(.black)
+           
             // 로딩중일때 자주 사용된다.
             .onAppear {
                 print("나타났어요")
