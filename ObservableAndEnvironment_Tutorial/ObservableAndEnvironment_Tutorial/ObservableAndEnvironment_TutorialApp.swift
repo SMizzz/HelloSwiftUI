@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ObservableAndEnvironment_TutorialApp: App {
+    let demoData: DemoData = DemoData()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(demoData)
         }
     }
 }

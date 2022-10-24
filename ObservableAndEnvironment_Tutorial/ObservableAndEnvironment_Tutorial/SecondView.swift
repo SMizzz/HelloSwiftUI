@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SecondView: View {
     
-    @ObservedObject var demoData: DemoData
+    @EnvironmentObject var demoData: DemoData
     
     var body: some View {
         NavigationView {
