@@ -14,13 +14,13 @@ class TimerData : ObservableObject {
     
     var timer: Timer?
     
-    init() {
+    func timerStart() {
         timer = Timer.scheduledTimer(
-            timeInterval: 1.0,
-            target: self,
-            selector: #selector(timerDidFire),
-            userInfo: nil,
-            repeats: true)
+                  timeInterval: 1.0,
+                  target: self,
+                  selector: #selector(timerDidFire),
+                  userInfo: nil,
+                  repeats: true)
     }
     
     @objc func timerDidFire() {
@@ -29,5 +29,9 @@ class TimerData : ObservableObject {
     
     func resetCount() {
         timeCount = 0
+    }
+    
+    func timerStop() {
+        timer?.invalidate()
     }
 }

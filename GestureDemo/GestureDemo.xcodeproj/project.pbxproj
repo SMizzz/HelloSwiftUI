@@ -7,26 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02ED1F9B290F6CD600033530 /* AnimationDemo2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ED1F9A290F6CD600033530 /* AnimationDemo2App.swift */; };
-		02ED1F9D290F6CD600033530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ED1F9C290F6CD600033530 /* ContentView.swift */; };
-		02ED1F9F290F6CD700033530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ED1F9E290F6CD700033530 /* Assets.xcassets */; };
-		02ED1FA2290F6CD700033530 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ED1FA1290F6CD700033530 /* Preview Assets.xcassets */; };
-		02ED1FAD290F98D400033530 /* Demo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ED1FAC290F98D400033530 /* Demo3.swift */; };
-		02ED1FAF290FAD2E00033530 /* Demo4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ED1FAE290FAD2E00033530 /* Demo4.swift */; };
+		02F64F8C29109B9800DD69C0 /* GestureDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64F8B29109B9800DD69C0 /* GestureDemoApp.swift */; };
+		02F64F8E29109B9800DD69C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64F8D29109B9800DD69C0 /* ContentView.swift */; };
+		02F64F9029109B9900DD69C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F64F8F29109B9900DD69C0 /* Assets.xcassets */; };
+		02F64F9329109B9900DD69C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F64F9229109B9900DD69C0 /* Preview Assets.xcassets */; };
+		02F64F9A2910A25F00DD69C0 /* LongTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64F992910A25F00DD69C0 /* LongTapGestureView.swift */; };
+		02F64F9C2910A94900DD69C0 /* OnChangedCallBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64F9B2910A94900DD69C0 /* OnChangedCallBackView.swift */; };
+		02F64F9E2910AEC200DD69C0 /* UpdatingCallBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64F9D2910AEC200DD69C0 /* UpdatingCallBackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02ED1F97290F6CD600033530 /* AnimationDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		02ED1F9A290F6CD600033530 /* AnimationDemo2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemo2App.swift; sourceTree = "<group>"; };
-		02ED1F9C290F6CD600033530 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		02ED1F9E290F6CD700033530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		02ED1FA1290F6CD700033530 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		02ED1FAC290F98D400033530 /* Demo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3.swift; sourceTree = "<group>"; };
-		02ED1FAE290FAD2E00033530 /* Demo4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4.swift; sourceTree = "<group>"; };
+		02F64F8829109B9800DD69C0 /* GestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F64F8B29109B9800DD69C0 /* GestureDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemoApp.swift; sourceTree = "<group>"; };
+		02F64F8D29109B9800DD69C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02F64F8F29109B9900DD69C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02F64F9229109B9900DD69C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02F64F992910A25F00DD69C0 /* LongTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTapGestureView.swift; sourceTree = "<group>"; };
+		02F64F9B2910A94900DD69C0 /* OnChangedCallBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangedCallBackView.swift; sourceTree = "<group>"; };
+		02F64F9D2910AEC200DD69C0 /* UpdatingCallBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatingCallBackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02ED1F94290F6CD600033530 /* Frameworks */ = {
+		02F64F8529109B9800DD69C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +38,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02ED1F8E290F6CD600033530 = {
+		02F64F7F29109B9800DD69C0 = {
 			isa = PBXGroup;
 			children = (
-				02ED1F99290F6CD600033530 /* AnimationDemo2 */,
-				02ED1F98290F6CD600033530 /* Products */,
+				02F64F8A29109B9800DD69C0 /* GestureDemo */,
+				02F64F8929109B9800DD69C0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		02ED1F98290F6CD600033530 /* Products */ = {
+		02F64F8929109B9800DD69C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02ED1F97290F6CD600033530 /* AnimationDemo2.app */,
+				02F64F8829109B9800DD69C0 /* GestureDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		02ED1F99290F6CD600033530 /* AnimationDemo2 */ = {
+		02F64F8A29109B9800DD69C0 /* GestureDemo */ = {
 			isa = PBXGroup;
 			children = (
-				02ED1F9A290F6CD600033530 /* AnimationDemo2App.swift */,
-				02ED1F9C290F6CD600033530 /* ContentView.swift */,
-				02ED1FAC290F98D400033530 /* Demo3.swift */,
-				02ED1FAE290FAD2E00033530 /* Demo4.swift */,
-				02ED1F9E290F6CD700033530 /* Assets.xcassets */,
-				02ED1FA0290F6CD700033530 /* Preview Content */,
+				02F64F8B29109B9800DD69C0 /* GestureDemoApp.swift */,
+				02F64F8D29109B9800DD69C0 /* ContentView.swift */,
+				02F64F992910A25F00DD69C0 /* LongTapGestureView.swift */,
+				02F64F9B2910A94900DD69C0 /* OnChangedCallBackView.swift */,
+				02F64F9D2910AEC200DD69C0 /* UpdatingCallBackView.swift */,
+				02F64F8F29109B9900DD69C0 /* Assets.xcassets */,
+				02F64F9129109B9900DD69C0 /* Preview Content */,
 			);
-			path = AnimationDemo2;
+			path = GestureDemo;
 			sourceTree = "<group>";
 		};
-		02ED1FA0290F6CD700033530 /* Preview Content */ = {
+		02F64F9129109B9900DD69C0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				02ED1FA1290F6CD700033530 /* Preview Assets.xcassets */,
+				02F64F9229109B9900DD69C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,39 +79,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		02ED1F96290F6CD600033530 /* AnimationDemo2 */ = {
+		02F64F8729109B9800DD69C0 /* GestureDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02ED1FA5290F6CD700033530 /* Build configuration list for PBXNativeTarget "AnimationDemo2" */;
+			buildConfigurationList = 02F64F9629109B9900DD69C0 /* Build configuration list for PBXNativeTarget "GestureDemo" */;
 			buildPhases = (
-				02ED1F93290F6CD600033530 /* Sources */,
-				02ED1F94290F6CD600033530 /* Frameworks */,
-				02ED1F95290F6CD600033530 /* Resources */,
+				02F64F8429109B9800DD69C0 /* Sources */,
+				02F64F8529109B9800DD69C0 /* Frameworks */,
+				02F64F8629109B9800DD69C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AnimationDemo2;
-			productName = AnimationDemo2;
-			productReference = 02ED1F97290F6CD600033530 /* AnimationDemo2.app */;
+			name = GestureDemo;
+			productName = GestureDemo;
+			productReference = 02F64F8829109B9800DD69C0 /* GestureDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		02ED1F8F290F6CD600033530 /* Project object */ = {
+		02F64F8029109B9800DD69C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					02ED1F96290F6CD600033530 = {
+					02F64F8729109B9800DD69C0 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 02ED1F92290F6CD600033530 /* Build configuration list for PBXProject "AnimationDemo2" */;
+			buildConfigurationList = 02F64F8329109B9800DD69C0 /* Build configuration list for PBXProject "GestureDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +119,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 02ED1F8E290F6CD600033530;
-			productRefGroup = 02ED1F98290F6CD600033530 /* Products */;
+			mainGroup = 02F64F7F29109B9800DD69C0;
+			productRefGroup = 02F64F8929109B9800DD69C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02ED1F96290F6CD600033530 /* AnimationDemo2 */,
+				02F64F8729109B9800DD69C0 /* GestureDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		02ED1F95290F6CD600033530 /* Resources */ = {
+		02F64F8629109B9800DD69C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02ED1FA2290F6CD700033530 /* Preview Assets.xcassets in Resources */,
-				02ED1F9F290F6CD700033530 /* Assets.xcassets in Resources */,
+				02F64F9329109B9900DD69C0 /* Preview Assets.xcassets in Resources */,
+				02F64F9029109B9900DD69C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		02ED1F93290F6CD600033530 /* Sources */ = {
+		02F64F8429109B9800DD69C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02ED1F9D290F6CD600033530 /* ContentView.swift in Sources */,
-				02ED1FAD290F98D400033530 /* Demo3.swift in Sources */,
-				02ED1F9B290F6CD600033530 /* AnimationDemo2App.swift in Sources */,
-				02ED1FAF290FAD2E00033530 /* Demo4.swift in Sources */,
+				02F64F9E2910AEC200DD69C0 /* UpdatingCallBackView.swift in Sources */,
+				02F64F8E29109B9800DD69C0 /* ContentView.swift in Sources */,
+				02F64F9C2910A94900DD69C0 /* OnChangedCallBackView.swift in Sources */,
+				02F64F8C29109B9800DD69C0 /* GestureDemoApp.swift in Sources */,
+				02F64F9A2910A25F00DD69C0 /* LongTapGestureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		02ED1FA3290F6CD700033530 /* Debug */ = {
+		02F64F9429109B9900DD69C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		02ED1FA4290F6CD700033530 /* Release */ = {
+		02F64F9529109B9900DD69C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,14 +271,14 @@
 			};
 			name = Release;
 		};
-		02ED1FA6290F6CD700033530 /* Debug */ = {
+		02F64F9729109B9900DD69C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AnimationDemo2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GestureDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = MK3P338UQW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -288,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jero.AnimationDemo2;
+				PRODUCT_BUNDLE_IDENTIFIER = jero.GestureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,14 +300,14 @@
 			};
 			name = Debug;
 		};
-		02ED1FA7290F6CD700033530 /* Release */ = {
+		02F64F9829109B9900DD69C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AnimationDemo2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GestureDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = MK3P338UQW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -317,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jero.AnimationDemo2;
+				PRODUCT_BUNDLE_IDENTIFIER = jero.GestureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02ED1F92290F6CD600033530 /* Build configuration list for PBXProject "AnimationDemo2" */ = {
+		02F64F8329109B9800DD69C0 /* Build configuration list for PBXProject "GestureDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02ED1FA3290F6CD700033530 /* Debug */,
-				02ED1FA4290F6CD700033530 /* Release */,
+				02F64F9429109B9900DD69C0 /* Debug */,
+				02F64F9529109B9900DD69C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02ED1FA5290F6CD700033530 /* Build configuration list for PBXNativeTarget "AnimationDemo2" */ = {
+		02F64F9629109B9900DD69C0 /* Build configuration list for PBXNativeTarget "GestureDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02ED1FA6290F6CD700033530 /* Debug */,
-				02ED1FA7290F6CD700033530 /* Release */,
+				02F64F9729109B9900DD69C0 /* Debug */,
+				02F64F9829109B9900DD69C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 02ED1F8F290F6CD600033530 /* Project object */;
+	rootObject = 02F64F8029109B9800DD69C0 /* Project object */;
 }
