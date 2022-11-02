@@ -1,0 +1,210 @@
+[
+    {
+        "name": "닥터브이 노래연습장 고대안암점",
+        "url": "https://map.naver.com/v5/search/%EC%95%88%EC%95%94%20%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1195110836?c=14139016.9158177,4521084.3550941,15,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+        "latitude": 37.583933,
+        "longitude": 127.029701
+    },
+    
+    {
+        "name": "리코스타코인노래연습장 고려대점",
+        "url": "https://map.naver.com/v5/search/%EC%95%88%EC%95%94%20%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/38404144?c=14139939.7428203,4520805.2472441,15,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+        "latitude": 37.584211,
+        "longitude": 127.029617
+    },
+    
+    {
+        "name": "스페셜박스 코인노래연습장",
+        "url": "https://map.naver.com/v5/search/%EC%95%88%EC%95%94%20%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1745826654?c=14139939.7428203,4520805.2472441,15,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+        "latitude": 37.583447,
+        "longitude": 127.029337
+    },
+    
+    {
+        "name": "판타스틱코인노래방",
+        "url": "https://map.naver.com/v5/search/%EC%95%88%EC%95%94%20%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1617648449?c=14139939.7428203,4520805.2472441,15,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+        "latitude": 37.587112,
+        "longitude":  127.029672
+    },
+    
+    {
+        "name": "아지트코인노래연습장",
+        "url": "https://map.naver.com/v5/search/%EC%95%88%EC%95%94%20%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1617648449?c=14139939.7428203,4520805.2472441,15,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+        "latitude": 37.585374,
+        "longitude":  127.029618
+    },
+    
+    {
+        "name": "이츠코인노래방",
+        "url": "https://map.naver.com/v5/search/%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1716905934?c=14149735.2732370,4510628.6810668,15.1,0,0,0,dh",
+        "latitude": 37.507293,
+        "longitude":127.116639
+    },
+    
+    {
+        "name": "도깨비코인노래연습장",
+        "url": "https://map.naver.com/v5/search/%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/947687987?c=14149852.8519688,4510762.0681079,15.71,0,0,0,dh",
+        "latitude": 37.511554,
+        "longitude": 127.113872
+    },
+    
+    {
+        "name": "케이스타코인노래연습장 방이점",
+        "url": "https://map.naver.com/v5/search/%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1622619510?c=14149495.3272962,4510984.7782412,15.62,0,0,0,dh",
+        "latitude": 37.513189,
+        "longitude": 127.108585
+    },
+    
+    {
+        "name": "락휴코인노래연습장-송파구청점",
+        "url": "https://map.naver.com/v5/search/%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1701574898?c=14149548.9093103,4511116.2806201,17.32,0,0,0,dh",
+        "latitude": 37.514394,
+        "longitude": 127.108873
+    },
+    
+    {
+        "name": "세븐스타코인노래연습장 송파구청점",
+        "url": "https://map.naver.com/v5/search/%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1484411305?c=14149548.9093103,4511116.2806201,17.32,0,0,0,dh",
+        "latitude": 37.514936,
+        "longitude": 127.109293
+    },
+    
+    {
+        "name": "펀코인노래연습장",
+        "url": "https://map.naver.com/v5/search/여수%20코인노래방/place/1083525733?c=14196398.4561361,4131371.3322488,10,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 34.740955,
+        "longitude": 127.732442
+    },
+    
+    {
+        "name": "씽코인노래연습장",
+        "url": "https://map.naver.com/v5/search/여수%20코인노래방/place/1258640883?c=14182374.5065297,4129442.9468612,10,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 34.746243,
+        "longitude": 127.670513
+    },
+    
+    {
+        "name": "쇼탬버린코인노래연습장",
+        "url": "https://map.naver.com/v5/search/여수%20코인노래방/place/1522257791?c=14182374.5065297,4129442.9468612,10,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 34.757260,
+        "longitude": 127.664018
+    },
+    
+    {
+        "name": "텐코인노래뮤비방여수학동점",
+        "url": "https://map.naver.com/v5/search/여수%20코인노래방/place/1278451013?c=14182374.5065297,4129442.9468612,10,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 34.759193,
+        "longitude": 127.666072
+    },
+    
+    {
+        "name": "코인싱어동전노래연습장",
+        "url": "https://map.naver.com/v5/search/여수%20코인노래방/place/613763161?c=14182374.5065297,4129442.9468612,10,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 34.765601,
+        "longitude": 127.668197
+    },
+    
+    {
+        "name": "올레동전노래연습장",
+        "url": "https://map.naver.com/v5/search/%EB%8F%99%EC%A0%84%EB%85%B8%EB%9E%98%EB%B0%A9/place/1500337018?c=14305916.6833569,4274461.3464631,13,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 35.809673,
+        "longitude": 128.512253
+    },
+    
+    {
+        "name": "애플동전노래방",
+        "url": "https://map.naver.com/v5/search/%EB%8F%99%EC%A0%84%EB%85%B8%EB%9E%98%EB%B0%A9/place/685750592?c=14305916.6833569,4274461.3464631,13,0,0,0,dh",
+        "latitude": 35.81659,
+        "longitude": 128.52249
+    },
+    
+    {
+        "name": "온에어 코인노래방 대구상인점",
+        "url": "https://map.naver.com/v5/search/%EB%8F%99%EC%A0%84%EB%85%B8%EB%9E%98%EB%B0%A9/place/1247734795?c=14305916.6833569,4274461.3464631,13,0,0,0,dh",
+        "latitude": 35.81670,
+        "longitude": 128.53230
+    },
+    
+    {
+        "name": "돼지동전노래방",
+        "url": "https://map.naver.com/v5/search/%EB%8F%99%EC%A0%84%EB%85%B8%EB%9E%98%EB%B0%A9/place/1052711773?c=14305916.6833569,4274461.3464631,13,0,0,0,dh",
+        "latitude": 35.80479,
+        "longitude": 128.50077
+    },
+    
+    {
+        "name": "았싸동전노래연습장",
+        "url": "https://map.naver.com/v5/search/%EB%8F%99%EC%A0%84%EB%85%B8%EB%9E%98%EB%B0%A9/place/37171270?c=14307042.8296387,4274947.5165521,15.42,0,0,0,dh",
+        "latitude": 35.81942,
+        "longitude": 128.53938
+    },
+    
+    {
+        "name": "왕코인노래방",
+        "url": "https://map.naver.com/v5/search/%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/38299491?c=14107296.4129902,4510683.6780993,15,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 37.583933,
+        "longitude": 127.029701
+    },
+    
+    {
+        "name": "스타코인 노래연습장",
+        "url": "https://map.naver.com/v5/search/%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1366296963?c=14107296.4129902,4510683.6780993,15,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 37.507448,
+        "longitude": 126.734392
+    },
+    
+    {
+        "name": "킹코인노래연습장",
+        "url": "https://map.naver.com/v5/search/%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1396455571?c=14107296.4129902,4510683.6780993,15,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 37.508102,
+        "longitude": 126.734632
+    },
+    
+    {
+        "name": "텐코인 노래연습장 인천삼산점",
+        "url": "https://map.naver.com/v5/search/%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1416426225?c=14107296.4129902,4510683.6780993,15,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 37.507561,
+        "longitude": 126.735713
+    },
+    
+    {
+        "name": "피피코인동전노래연습장",
+        "url": "https://map.naver.com/v5/search/%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1204431475?c=14107296.4129902,4510683.6780993,15,0,0,0,dh&placePath=%3Fentry%253Dpll",
+        "latitude": 37.504438,
+        "longitude": 126.731379
+    },
+    
+    {
+        "name": "락휴 코인노래연습장",
+        "url": "https://map.naver.com/v5/search/%EB%9D%BD%ED%9C%B4%20%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EC%97%B0%EC%8A%B5%EC%9E%A5?c=14143356.0271178,4522536.8457738,15,0,0,0,dh",
+        "latitude":  37.582350,
+        "longitude": 127.088445
+    },
+    {
+        "name": "더코인노래연습장",
+        "url": "https://map.naver.com/v5/search/%EC%A4%91%ED%99%94%EB%8F%99%20%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1700164156?c=14144462.7520293,4523317.8097571,14,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+        "latitude": 37.601726,
+        "longitude": 127.078621
+    },
+    
+    {
+        "name": "오썸코인노래연습장",
+        "url": "https://map.naver.com/v5/search/%EC%A4%91%ED%99%94%EB%8F%99%20%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1140503833?c=14144462.7520293,4523317.8097571,14,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+        "latitude": 37.583378,
+        "longitude": 127.054532
+    },
+    
+    {
+        "name": "큐코인노래연습장",
+        "url": "https://map.naver.com/v5/search/%EC%A4%91%ED%99%94%EB%8F%99%20%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1479083096?c=14144462.7520293,4523317.8097571,14,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+        "latitude": 37.583378,
+        "longitude": 127.077418
+    },
+    
+    {
+        "name": "노래야노래야코인노래연습장먹골점",
+        "url": "https://map.naver.com/v5/search/%EC%A4%91%ED%99%94%EB%8F%99%20%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EB%B0%A9/place/1660398793?c=14144462.7520293,4523317.8097571,14,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+        "latitude": 37.611391,
+        "longitude": 127.077999
+    }
+]
