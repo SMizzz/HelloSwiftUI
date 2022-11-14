@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  GlobalAppDemo
+
+  Created by Jero on 2022/11/14.
+  
+*/
+
+"Hello World!" = "이렇게 만나서 반가워요!";
+
+"England" = "영국";
+"Wakanda" = "와칸다";
+"Japan" = "일본";
+"USA" = "미국";
+"Germany" = "독일";
+"Wales" = "웨일즈";
+
+"Total %lld countries" = "모두 %lld개의 국가들이 있습니다.";

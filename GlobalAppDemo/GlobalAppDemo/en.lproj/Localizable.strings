@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  GlobalAppDemo
+
+  Created by Jero on 2022/11/14.
+  
+*/
+
+"Hello World!" = "Hello World!";
+
+"England" = "England";
+"Wakanda" = "Wakanda";
+"Japan" = "Japan";
+"USA" = "USA";
+"Germany" = "Germany";
+"Wales" = "Wales";
+
+"Total %lld countries" = "Total %lld countries";

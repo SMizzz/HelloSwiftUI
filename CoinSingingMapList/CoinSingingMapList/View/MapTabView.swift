@@ -27,7 +27,6 @@ struct MapTabView: View {
 //            } label: {
 //                Text("Test")
 //            }
-
             Map(coordinateRegion: $region,
                 annotationItems: coinSingData.coinSingingstore
             ) { item in

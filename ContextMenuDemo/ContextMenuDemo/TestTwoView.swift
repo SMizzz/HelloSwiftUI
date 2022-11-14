@@ -32,7 +32,7 @@ struct TestTwoView: View {
                 
             }
            
-            Button(action: <#T##() -> Void#>, label: <#T##() -> _#>)
+//            Button(action: <#T##() -> Void#>, label: <#T##() -> _#>)
             
             Text("Save")
                 .foregroundColor(Color("sailColor"))
