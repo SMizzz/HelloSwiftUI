@@ -14,6 +14,7 @@
 		02172B8D2923D1EC00EE00A6 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172B8C2923D1EC00EE00A6 /* OnboardingContainerView.swift */; };
 		02172B8F2923D1FD00EE00A6 /* OnboardingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172B8E2923D1FD00EE00A6 /* OnboardingContentView.swift */; };
 		02172B912923D2B600EE00A6 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172B902923D2B600EE00A6 /* Feature.swift */; };
+		02172BBC2924B73700EE00A6 /* TipOffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172BBB2924B73700EE00A6 /* TipOffView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		02172B8C2923D1EC00EE00A6 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
 		02172B8E2923D1FD00EE00A6 /* OnboardingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentView.swift; sourceTree = "<group>"; };
 		02172B902923D2B600EE00A6 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		02172BBB2924B73700EE00A6 /* TipOffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipOffView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				02172B8C2923D1EC00EE00A6 /* OnboardingContainerView.swift */,
 				02172B8E2923D1FD00EE00A6 /* OnboardingContentView.swift */,
 				02172B902923D2B600EE00A6 /* Feature.swift */,
+				02172BBB2924B73700EE00A6 /* TipOffView.swift */,
 				02172B802923D1C300EE00A6 /* Assets.xcassets */,
 				02172B822923D1C300EE00A6 /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 				02172B7D2923D1C200EE00A6 /* OnBoardingViewDemo2App.swift in Sources */,
 				02172B912923D2B600EE00A6 /* Feature.swift in Sources */,
 				02172B8D2923D1EC00EE00A6 /* OnboardingContainerView.swift in Sources */,
+				02172BBC2924B73700EE00A6 /* TipOffView.swift in Sources */,
 				02172B8F2923D1FD00EE00A6 /* OnboardingContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

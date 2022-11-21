@@ -13,6 +13,7 @@
 		02172BA62924808300EE00A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02172BA52924808300EE00A6 /* Preview Assets.xcassets */; };
 		02172BAD2924847300EE00A6 /* ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172BAC2924847300EE00A6 /* ShareLinkView.swift */; };
 		02172BAF292484F600EE00A6 /* PhotosUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172BAE292484F600EE00A6 /* PhotosUIView.swift */; };
+		02172BB1292496E900EE00A6 /* TestGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172BB0292496E900EE00A6 /* TestGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		02172BA52924808300EE00A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02172BAC2924847300EE00A6 /* ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkView.swift; sourceTree = "<group>"; };
 		02172BAE292484F600EE00A6 /* PhotosUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIView.swift; sourceTree = "<group>"; };
+		02172BB0292496E900EE00A6 /* TestGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				02172BA02924808200EE00A6 /* ContentView.swift */,
 				02172BAC2924847300EE00A6 /* ShareLinkView.swift */,
 				02172BAE292484F600EE00A6 /* PhotosUIView.swift */,
+				02172BB0292496E900EE00A6 /* TestGestureView.swift */,
 				02172BA22924808300EE00A6 /* Assets.xcassets */,
 				02172BA42924808300EE00A6 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02172BB1292496E900EE00A6 /* TestGestureView.swift in Sources */,
 				02172BA12924808200EE00A6 /* ContentView.swift in Sources */,
 				02172BAD2924847300EE00A6 /* ShareLinkView.swift in Sources */,
 				02172B9F2924808200EE00A6 /* ShareLinkAndPhotosDemoApp.swift in Sources */,
