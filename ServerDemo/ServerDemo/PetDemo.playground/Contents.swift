@@ -23,7 +23,7 @@ func getData() {
         return
     }
     
-    // singleton 객체 하나로만 사용하겠다.
+    // shared singleton 객체 하나로만 사용하겠다. 동시에 작업하지 않고, 순차적으로 작업하는 곳에 쓰인다.
     // url을 가지고 data를 가져오거든 후행 클로저에 있는 일을 실행하라.
     let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
         // data, response, error를 활용한 데이터 가져온 이후의 작업

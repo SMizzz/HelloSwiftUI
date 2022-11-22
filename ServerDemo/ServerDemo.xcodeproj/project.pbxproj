@@ -11,6 +11,8 @@
 		02172C0B292B426700EE00A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172C0A292B426700EE00A6 /* ContentView.swift */; };
 		02172C0D292B426800EE00A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02172C0C292B426800EE00A6 /* Assets.xcassets */; };
 		02172C10292B426800EE00A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02172C0F292B426800EE00A6 /* Preview Assets.xcassets */; };
+		02172C1B292C680F00EE00A6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172C1A292C680F00EE00A6 /* MainViewModel.swift */; };
+		02172C1D292C682000EE00A6 /* OceanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172C1C292C682000EE00A6 /* OceanData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,10 @@
 		02172C0F292B426800EE00A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02172C16292B427A00EE00A6 /* ServerDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ServerDemo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		02172C17292B69B600EE00A6 /* PetDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PetDemo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		02172C19292C602D00EE00A6 /* OceanDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OceanDemo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		02172C1A292C680F00EE00A6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		02172C1C292C682000EE00A6 /* OceanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanData.swift; sourceTree = "<group>"; };
+		02172C1E292C94A600EE00A6 /* CoronaDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoronaDemo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +60,15 @@
 			isa = PBXGroup;
 			children = (
 				02172C08292B426700EE00A6 /* ServerDemoApp.swift */,
+				02172C1C292C682000EE00A6 /* OceanData.swift */,
+				02172C1A292C680F00EE00A6 /* MainViewModel.swift */,
 				02172C0A292B426700EE00A6 /* ContentView.swift */,
 				02172C0C292B426800EE00A6 /* Assets.xcassets */,
 				02172C0E292B426800EE00A6 /* Preview Content */,
-				02172C17292B69B600EE00A6 /* PetDemo.playground */,
 				02172C16292B427A00EE00A6 /* ServerDemo.playground */,
+				02172C1E292C94A600EE00A6 /* CoronaDemo.playground */,
+				02172C17292B69B600EE00A6 /* PetDemo.playground */,
+				02172C19292C602D00EE00A6 /* OceanDemo.playground */,
 			);
 			path = ServerDemo;
 			sourceTree = "<group>";
@@ -143,6 +153,8 @@
 			files = (
 				02172C0B292B426700EE00A6 /* ContentView.swift in Sources */,
 				02172C09292B426700EE00A6 /* ServerDemoApp.swift in Sources */,
+				02172C1D292C682000EE00A6 /* OceanData.swift in Sources */,
+				02172C1B292C680F00EE00A6 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
