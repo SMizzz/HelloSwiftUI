@@ -22,17 +22,10 @@ struct MapTabView: View {
     
     var body: some View {
         VStack {
-//            Button {
-//                coinSingData.addCoinSingingStore(CoinSinging(name: "네이버", url: "https://www.naver.com", latitude: 37.564713, longitude: 126.975122))
-//            } label: {
-//                Text("Test")
-//            }
             Map(coordinateRegion: $region,
                 annotationItems: coinSingData.coinSingingstore
             ) { item in
-                   // your function
                 MapMarker(coordinate: item.coordinate, tint: .purple)
-//                MapPin(coordinate: item.coordinate)
             }
         }
         

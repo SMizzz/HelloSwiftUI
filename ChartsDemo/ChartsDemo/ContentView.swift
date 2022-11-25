@@ -19,14 +19,14 @@ struct ContentView: View {
                     BarMark(
                         x: .value("Day", weekdays[index]),
                         y: .value("Step", steps[index]))
-                    .foregroundStyle(by: .value("Day", weekdays[index]))
-                    .annotation {
-                        Text("\(steps[index])")
-                    }
+//                    .foregroundStyle(by: .value("Day", weekdays[index]))
+//                    .annotation {
+//                        Text("\(steps[index])")
+//                    }
                     
-                    LineMark(
-                        x: .value("Day", weekdays[index]),
-                        y: .value("Step", steps[index]))
+//                    LineMark(
+//                        x: .value("Day", weekdays[index]),
+//                        y: .value("Step", steps[index]))
                 }
             }
         }

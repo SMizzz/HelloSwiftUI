@@ -13,6 +13,9 @@
 		02172C10292B426800EE00A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02172C0F292B426800EE00A6 /* Preview Assets.xcassets */; };
 		02172C1B292C680F00EE00A6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172C1A292C680F00EE00A6 /* MainViewModel.swift */; };
 		02172C1D292C682000EE00A6 /* OceanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172C1C292C682000EE00A6 /* OceanData.swift */; };
+		02172C20292CAC5000EE00A6 /* LoadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172C1F292CAC5000EE00A6 /* LoadJson.swift */; };
+		02172C22292CAC7100EE00A6 /* CovidCenters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172C21292CAC7100EE00A6 /* CovidCenters.swift */; };
+		02172C24292CACC700EE00A6 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02172C23292CACC700EE00A6 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		02172C1A292C680F00EE00A6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		02172C1C292C682000EE00A6 /* OceanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanData.swift; sourceTree = "<group>"; };
 		02172C1E292C94A600EE00A6 /* CoronaDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoronaDemo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		02172C1F292CAC5000EE00A6 /* LoadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadJson.swift; sourceTree = "<group>"; };
+		02172C21292CAC7100EE00A6 /* CovidCenters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidCenters.swift; sourceTree = "<group>"; };
+		02172C23292CACC700EE00A6 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				02172C08292B426700EE00A6 /* ServerDemoApp.swift */,
 				02172C1C292C682000EE00A6 /* OceanData.swift */,
 				02172C1A292C680F00EE00A6 /* MainViewModel.swift */,
+				02172C1F292CAC5000EE00A6 /* LoadJson.swift */,
+				02172C21292CAC7100EE00A6 /* CovidCenters.swift */,
+				02172C23292CACC700EE00A6 /* WebService.swift */,
 				02172C0A292B426700EE00A6 /* ContentView.swift */,
 				02172C0C292B426800EE00A6 /* Assets.xcassets */,
 				02172C0E292B426800EE00A6 /* Preview Content */,
@@ -153,8 +162,11 @@
 			files = (
 				02172C0B292B426700EE00A6 /* ContentView.swift in Sources */,
 				02172C09292B426700EE00A6 /* ServerDemoApp.swift in Sources */,
+				02172C24292CACC700EE00A6 /* WebService.swift in Sources */,
+				02172C20292CAC5000EE00A6 /* LoadJson.swift in Sources */,
 				02172C1D292C682000EE00A6 /* OceanData.swift in Sources */,
 				02172C1B292C680F00EE00A6 /* MainViewModel.swift in Sources */,
+				02172C22292CAC7100EE00A6 /* CovidCenters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

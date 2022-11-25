@@ -49,6 +49,9 @@ func getData() {
             let resultsData =  try JSONDecoder().decode([Results].self, from: data)
             // 배열로 받은 데이터를 for문을 사용하여 풀어줌...
             for results in resultsData {
+                for item in results.resultList {
+                    item.longitude
+                }
                 print(results)
             }
         } catch let error {
