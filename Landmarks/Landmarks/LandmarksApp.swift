@@ -19,9 +19,12 @@ WindowGroup 한 장면에 그룹핑으로 나와서 잡히게 된다.
 
 @main
 struct LandmarksApp: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }
