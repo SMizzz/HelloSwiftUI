@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C22E322940D86D003FACC3 /* MemoPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C22E312940D86D003FACC3 /* MemoPracticeApp.swift */; };
+		02C22E342940D86D003FACC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C22E332940D86D003FACC3 /* ContentView.swift */; };
+		02C22E362940D86D003FACC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C22E352940D86D003FACC3 /* Assets.xcassets */; };
+		02C22E392940D86D003FACC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C22E382940D86D003FACC3 /* Preview Assets.xcassets */; };
+		02C22E402940D997003FACC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02C22E3F2940D997003FACC3 /* GoogleService-Info.plist */; };
+		02C22E432940D9FA003FACC3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 02C22E422940D9FA003FACC3 /* FirebaseAuth */; };
+		02C22E452940D9FA003FACC3 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 02C22E442940D9FA003FACC3 /* FirebaseDatabase */; };
+		02C22E472940D9FA003FACC3 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 02C22E462940D9FA003FACC3 /* FirebaseDatabaseSwift */; };
+		02C22E492940D9FA003FACC3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 02C22E482940D9FA003FACC3 /* FirebaseFirestore */; };
+		02C22E4B2940DBB7003FACC3 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C22E4A2940DBB7003FACC3 /* MemoStore.swift */; };
+		02C22E4D2940DBE5003FACC3 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C22E4C2940DBE5003FACC3 /* Memo.swift */; };
+		02C22E4F2940DE50003FACC3 /* AddNewMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C22E4E2940DE50003FACC3 /* AddNewMemoView.swift */; };
+		02C22E512940E539003FACC3 /* EditMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C22E502940E539003FACC3 /* EditMemoView.swift */; };
+		02C22E5529416419003FACC3 /* PostItMemoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C22E5429416419003FACC3 /* PostItMemoContentView.swift */; };
+		02C22E58294164CA003FACC3 /* PostIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C22E57294164CA003FACC3 /* PostIt.swift */; };
+		02C22E5A29416710003FACC3 /* PostItStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C22E5929416710003FACC3 /* PostItStore.swift */; };
+		02C22E5D29419CF0003FACC3 /* AddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C22E5C29419CF0003FACC3 /* AddingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02C22E2E2940D86D003FACC3 /* MemoPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C22E312940D86D003FACC3 /* MemoPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPracticeApp.swift; sourceTree = "<group>"; };
+		02C22E332940D86D003FACC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02C22E352940D86D003FACC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C22E382940D86D003FACC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02C22E3F2940D997003FACC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		02C22E4A2940DBB7003FACC3 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
+		02C22E4C2940DBE5003FACC3 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		02C22E4E2940DE50003FACC3 /* AddNewMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMemoView.swift; sourceTree = "<group>"; };
+		02C22E502940E539003FACC3 /* EditMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemoView.swift; sourceTree = "<group>"; };
+		02C22E5429416419003FACC3 /* PostItMemoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItMemoContentView.swift; sourceTree = "<group>"; };
+		02C22E57294164CA003FACC3 /* PostIt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostIt.swift; sourceTree = "<group>"; };
+		02C22E5929416710003FACC3 /* PostItStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItStore.swift; sourceTree = "<group>"; };
+		02C22E5C29419CF0003FACC3 /* AddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C22E2B2940D86D003FACC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C22E472940D9FA003FACC3 /* FirebaseDatabaseSwift in Frameworks */,
+				02C22E492940D9FA003FACC3 /* FirebaseFirestore in Frameworks */,
+				02C22E452940D9FA003FACC3 /* FirebaseDatabase in Frameworks */,
+				02C22E432940D9FA003FACC3 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C22E252940D86D003FACC3 = {
+			isa = PBXGroup;
+			children = (
+				02C22E302940D86D003FACC3 /* MemoPractice */,
+				02C22E2F2940D86D003FACC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C22E2F2940D86D003FACC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C22E2E2940D86D003FACC3 /* MemoPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C22E302940D86D003FACC3 /* MemoPractice */ = {
+			isa = PBXGroup;
+			children = (
+				02C22E312940D86D003FACC3 /* MemoPracticeApp.swift */,
+				02C22E53294163F1003FACC3 /* PostItMemo */,
+				02C22E52294163DD003FACC3 /* Memo */,
+				02C22E3F2940D997003FACC3 /* GoogleService-Info.plist */,
+				02C22E352940D86D003FACC3 /* Assets.xcassets */,
+				02C22E372940D86D003FACC3 /* Preview Content */,
+			);
+			path = MemoPractice;
+			sourceTree = "<group>";
+		};
+		02C22E372940D86D003FACC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02C22E382940D86D003FACC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02C22E52294163DD003FACC3 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				02C22E4C2940DBE5003FACC3 /* Memo.swift */,
+				02C22E4A2940DBB7003FACC3 /* MemoStore.swift */,
+				02C22E332940D86D003FACC3 /* ContentView.swift */,
+				02C22E4E2940DE50003FACC3 /* AddNewMemoView.swift */,
+				02C22E502940E539003FACC3 /* EditMemoView.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		02C22E53294163F1003FACC3 /* PostItMemo */ = {
+			isa = PBXGroup;
+			children = (
+				02C22E56294164B9003FACC3 /* Models */,
+				02C22E5B29419CDF003FACC3 /* Views */,
+			);
+			path = PostItMemo;
+			sourceTree = "<group>";
+		};
+		02C22E56294164B9003FACC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02C22E57294164CA003FACC3 /* PostIt.swift */,
+				02C22E5929416710003FACC3 /* PostItStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02C22E5B29419CDF003FACC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02C22E5429416419003FACC3 /* PostItMemoContentView.swift */,
+				02C22E5C29419CF0003FACC3 /* AddingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C22E2D2940D86D003FACC3 /* MemoPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C22E3C2940D86D003FACC3 /* Build configuration list for PBXNativeTarget "MemoPractice" */;
+			buildPhases = (
+				02C22E2A2940D86D003FACC3 /* Sources */,
+				02C22E2B2940D86D003FACC3 /* Frameworks */,
+				02C22E2C2940D86D003FACC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoPractice;
+			packageProductDependencies = (
+				02C22E422940D9FA003FACC3 /* FirebaseAuth */,
+				02C22E442940D9FA003FACC3 /* FirebaseDatabase */,
+				02C22E462940D9FA003FACC3 /* FirebaseDatabaseSwift */,
+				02C22E482940D9FA003FACC3 /* FirebaseFirestore */,
+			);
+			productName = MemoPractice;
+			productReference = 02C22E2E2940D86D003FACC3 /* MemoPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C22E262940D86D003FACC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					02C22E2D2940D86D003FACC3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 02C22E292940D86D003FACC3 /* Build configuration list for PBXProject "MemoPractice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C22E252940D86D003FACC3;
+			packageReferences = (
+				02C22E412940D9FA003FACC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 02C22E2F2940D86D003FACC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C22E2D2940D86D003FACC3 /* MemoPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C22E2C2940D86D003FACC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C22E392940D86D003FACC3 /* Preview Assets.xcassets in Resources */,
+				02C22E362940D86D003FACC3 /* Assets.xcassets in Resources */,
+				02C22E402940D997003FACC3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C22E2A2940D86D003FACC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C22E512940E539003FACC3 /* EditMemoView.swift in Sources */,
+				02C22E342940D86D003FACC3 /* ContentView.swift in Sources */,
+				02C22E5A29416710003FACC3 /* PostItStore.swift in Sources */,
+				02C22E5D29419CF0003FACC3 /* AddingView.swift in Sources */,
+				02C22E58294164CA003FACC3 /* PostIt.swift in Sources */,
+				02C22E4B2940DBB7003FACC3 /* MemoStore.swift in Sources */,
+				02C22E322940D86D003FACC3 /* MemoPracticeApp.swift in Sources */,
+				02C22E4D2940DBE5003FACC3 /* Memo.swift in Sources */,
+				02C22E5529416419003FACC3 /* PostItMemoContentView.swift in Sources */,
+				02C22E4F2940DE50003FACC3 /* AddNewMemoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02C22E3A2940D86D003FACC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02C22E3B2940D86D003FACC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C22E3D2940D86D003FACC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MemoPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = MK3P338UQW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jero.MemoPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C22E3E2940D86D003FACC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MemoPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = MK3P338UQW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jero.MemoPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C22E292940D86D003FACC3 /* Build configuration list for PBXProject "MemoPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C22E3A2940D86D003FACC3 /* Debug */,
+				02C22E3B2940D86D003FACC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C22E3C2940D86D003FACC3 /* Build configuration list for PBXNativeTarget "MemoPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C22E3D2940D86D003FACC3 /* Debug */,
+				02C22E3E2940D86D003FACC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02C22E412940D9FA003FACC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02C22E422940D9FA003FACC3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C22E412940D9FA003FACC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		02C22E442940D9FA003FACC3 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C22E412940D9FA003FACC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		02C22E462940D9FA003FACC3 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C22E412940D9FA003FACC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		02C22E482940D9FA003FACC3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C22E412940D9FA003FACC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 02C22E262940D86D003FACC3 /* Project object */;
+}
